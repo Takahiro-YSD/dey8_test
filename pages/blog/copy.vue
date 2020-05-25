@@ -1,7 +1,11 @@
 <template>
     <div class="container">
         <h1>{{message}}</h1>
-       
+        {{items[2].fields.image.fields.file.url}}
+
+        <img v-bind:src="items[2].fields.image.fields.file.url">aaaaaaaaaa</img>
+            <li>{{ items[2].fields.image.fields.file.url }}</li>
+        
         <!-- テーブルを追加 -->
         <div>
           <table class="table table-hover table-striped">
