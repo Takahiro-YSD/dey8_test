@@ -1,0 +1,21 @@
+{
+  "name": "contentful",
+  "version": "1.0.0",
+  "description": "My sublime Nuxt.js project",
+  "author": "Takahiro_YSD",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.10.3",
+    "@nuxtjs/dotenv": "^1.4.1",
+    "bootstrap-vue": "^2.14.0",
+    "contentful": "^7.14.4",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {}
+}
